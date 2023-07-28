@@ -14,6 +14,9 @@ import Hero from "./Pages/Hero";
 import Footer from "./components/Footer/Footer";
 import NavbarComponent from "./components/Navbar/Navbar";
 import { Container } from "react-bootstrap";
+import Cloud from "./Pages/Cloud/Cloud";
+import TESTIMONIALS from "./Pages/Testominal/TESTIMONIALS";
+import ContinImprove from "./Pages/ContinImprove/ContinImprove";
 
 const Continous_Improment = () => {
   return (
@@ -30,6 +33,9 @@ const Continous_Improment = () => {
       <CardIdentify />
       <Report />
       <Charts />
+      <Cloud/>
+      <TESTIMONIALS/>
+      <ContinImprove/>
       <Footer />
     </>
   );

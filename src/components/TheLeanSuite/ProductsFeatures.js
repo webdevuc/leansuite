@@ -118,7 +118,7 @@ const ProductsFeatures = () => {
       <Container>
         <div className="container py-5">
           <p className="choose-us">why choose us</p>
-          <p className="pro-fea">Product Features</p>
+          <p className="pro-features">Product Features</p>
 
           <Row>
             {cardData.map((card, index) => (

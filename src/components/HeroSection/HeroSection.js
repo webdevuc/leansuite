@@ -18,7 +18,7 @@ const HeroSection = () => {
       <Container>
         <Row className="d-flex justify-content-center ">
           <Col md={6}>
-            <div className="main-div pt-3">
+            <div className="main-div pt-5">
               <p className="sub-text">
                 ACCELERATE YOUR CONTINUOUS IMPROVEMENT PROGRAM​
               </p>
@@ -43,7 +43,8 @@ const HeroSection = () => {
           </Col>
         </Row>
 
-        <Row className="icons mt-5">
+        <div className="pt-5">
+        <Row className="icons pt-5">
           <Col className="hero-icon" xs={6} md={2}>
             <div className="hero">
               <BsTrophyFill color="#FFC000" size={20} />
@@ -89,6 +90,7 @@ const HeroSection = () => {
             <p className="hero-text">5.0 Rating</p>
           </Col>
         </Row>
+        </div>
       </Container>
     </div>
   );

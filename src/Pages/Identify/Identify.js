@@ -5,12 +5,12 @@ import identify from "../../assets/Images/identify.webp";
 
 function Identify() {
   return (
-    <div className="main-section">
+    <div className="main-section mt-5">
       <Container>
-        <Row className="d-flex center-sec">
+        <Row className="d-flex center-sec mt-5">
           <Col md={4}>
             <h6 className="section-title">CONTINUOUSLY IMPROVE</h6>
-            <h2 className="section-head">
+            <h2 className="section-head my-3">
               Identify improvement opportunities and take action
             </h2>
             <p className="section-para">
@@ -27,8 +27,8 @@ function Identify() {
             </p>
           </Col>
           <Col md={5}>
-            <div>
-              <img src={identify} />
+            <div className="img-center-mob">
+              <img className="mobile-img" src={identify} />
             </div>
           </Col>
         </Row>

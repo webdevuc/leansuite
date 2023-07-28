@@ -25,18 +25,18 @@ const cardsData = [
 
 function Driving() {
   return (
-    <div className="main-container">
+    <div className="main-container my-5">
       <Row className="d-flex justify-content-center align-items-center">
         <Col md={5}>
-          <img src={driving} alt="Driving continuous improvement" />
+          <img className="dri-img" src={driving} alt="Driving continuous improvement" />
         </Col>
         <Col md={5}>
-          <h1 className="heading">
+          <h1 className="heading-driving">
             Driving continuous improvement can be painful
           </h1>
           <div>
             {cardsData.map((card) => (
-              <div key={card.id} className="card">
+              <div key={card.id} className="card my-2">
                 <div className="card-con">
                   <p>{card.icon}</p>
                   <p className="text">{card.text}</p>
@@ -44,7 +44,9 @@ function Driving() {
               </div>
             ))}
           </div>
+          <div className="driv-btn-center pt-3">
           <button className="btn-free">SCHEDULE FREE DEMO</button>
+          </div>
         </Col>
       </Row>
     </div>

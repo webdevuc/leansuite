@@ -5,7 +5,7 @@ import { BsArrowRightShort } from "react-icons/bs";
 function Report() {
   return (
     <Container>
-      <div>
+      <div className="mt-5">
         <h3 className="report-head">CUSTOM REPORTS</h3>
         <h2 className="report-text">
           Create reports and get real-time insights into your continuous

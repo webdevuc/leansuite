@@ -36,3 +36,21 @@
   line-height: 30px !important;
   color: #888583;
 }
+
+@media screen and (max-width:768px) {
+  .heading{
+    font-size: 28px;
+    line-height: 38px;
+    text-align: center;
+  }
+  .para{
+    text-align: center;
+    font-size: 19px;
+  }
+  .secound-con{
+    
+    display: flex;
+    justify-content: center;
+
+  }
+}

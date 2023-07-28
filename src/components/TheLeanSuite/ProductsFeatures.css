@@ -9,7 +9,7 @@
     text-align: center;
 }
 
-.pro-fea{
+.pro-features{
     color: #FFFFFF;
     font-family: "Roboto", Sans-serif;
     font-size: 40px;
@@ -55,6 +55,9 @@
 @media screen and (max-width:768px) {
     .card-product{
         width: 100%;
+      }
+      .pro-features{
+        font-size: 30px;
       }
 }
 

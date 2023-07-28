@@ -1,6 +1,6 @@
 .bg-color{
     background-color: #090A43;
-    height: 100vh;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -45,16 +45,19 @@
     text-align: center;
     font-size: 13px;
 }
+.free-demo{
+    margin-top: 50px;
+}
 
 .sche-free-btn{
     color: #000;
-    font-weight: 600;
+    font-weight: 500;
     padding: 5px 25px 5px 25px;
     border-radius: 5px;
     font-family: "Roboto", Sans-serif;
     font-size: 14px;
     background-color: #FFFFFF;
-
+   
 }
 
 .sche-free-btn:hover{

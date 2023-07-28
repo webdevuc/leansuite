@@ -39,7 +39,8 @@ const VideoSection = () => {
 
     return (
       <div className='container mt-5'>
-        {/* Your existing content */}
+   <h2 className='title-video'>Lean manufacturing tools to implement a successful shop floor cadence</h2>
+           <video src="https://videos.files.wordpress.com/cOKf8R53/home-page-video-continuous-improvement-process.mp4"  controls></video>
         <h2 className='title mt-5'>Affiliations</h2>
         <div className='partners-container'>
           <Slider {...settings}>
@@ -57,7 +58,8 @@ const VideoSection = () => {
   // Render the images directly for non-responsive view
   return (
     <div className='container mt-5'>
-      {/* Your existing content */}
+           <h2 className='title-video'>Lean manufacturing tools to implement a successful shop floor cadence</h2>
+           <video src="https://videos.files.wordpress.com/cOKf8R53/home-page-video-continuous-improvement-process.mp4"  controls></video>
       <h2 className='title mt-5'>Affiliations</h2>
       <div className='partners'>
         {partnerImages.map((image, index) => (

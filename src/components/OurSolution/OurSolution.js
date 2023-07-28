@@ -57,7 +57,8 @@ const OurSolution = () => {
   ];
 
   return (
-    <section>
+    <section className="mt-5">
+            {/* <div className="our-solution"></div> */}
       <div className="mt-5">
         <div className="d-flex justify-content-center align-items-center">
           <Container>

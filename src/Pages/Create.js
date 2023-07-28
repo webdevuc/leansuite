@@ -16,9 +16,9 @@ function Create() {
   ];
 
   return (
-    <div className="mianConatainer">
+    <div className="">
       <Container>
-        <Row className="d-flex justify-content-center">
+        <Row className="d-flex justify-content-center mt-5">
           <Col md={6}>
             <div>
               <h1 className="heading">
@@ -33,7 +33,7 @@ function Create() {
               </p>
             </div>
           </Col>
-          <Col md={6}>
+          <Col  md={2}>
             {items.map((item, index) => (
               <div key={index} className="secound-con">
                 <span style={{ fontWeight: "bold" }}>{item.icon}</span>
