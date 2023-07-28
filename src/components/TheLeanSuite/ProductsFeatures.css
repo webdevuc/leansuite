@@ -1,0 +1,61 @@
+.choose-us{
+    color: #FFFFFF;
+    font-family: "Roboto", Sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 18.75px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.pro-fea{
+    color: #FFFFFF;
+    font-family: "Roboto", Sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 60px;
+    text-align: center;
+}
+
+.logo-icon-img {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .icon-container {
+    background-color: #090a43;
+    padding: 15px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+  }
+
+  .text-muted{
+    color: #090a43;
+    font-size: 22px;
+  }
+
+  .description{
+    color: #656565;
+    font-family: "Roboto", Sans-serif;
+    font-size: 16px;
+  }
+
+.card-product{
+    width: 400px ;
+    height: 19rem;
+    text-align: center;
+    border-radius: 20;
+}
+  
+@media screen and (max-width:768px) {
+    .card-product{
+        width: 100%;
+      }
+}
+
+  

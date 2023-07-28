@@ -1,0 +1,38 @@
+.mianConatainer {
+  display: flex;
+  justify-content: "center";
+  align-items: center;
+  height: 40vh;
+}
+
+.para {
+  color: #0a0000;
+  font-family: "Roboto", Sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-top: 1rem;
+}
+
+.heading {
+  color: #000000;
+  font-family: "Roboto", Sans-serif;
+  font-size: 36px;
+  font-weight: 550;
+}
+.secound-con {
+  display: flex;
+  /* --background-transition: 0.3s; */
+  align-self: center;
+  gap: 2rem;
+  padding: 1rem;
+  /* justify-content: center; */
+}
+.secound-con > p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px !important;
+  color: #888583;
+}

@@ -1,0 +1,57 @@
+.main-container {
+  margin-top: 10rem;
+}
+
+.heading {
+  color: #06295b;
+  font-family: "Roboto", Sans-serif;
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 66px;
+}
+
+.card {
+  /* margin: 0px 0px 0px 0px; */
+  padding: 20px 30px 20px 30px;
+  background-color: #f7f6f9;
+  border-style: solid;
+  border-width: 0px 0px 0px 0px;
+  border-radius: 8px 8px 8px 8px;
+  margin: 1rem 0;
+  width: 38rem;
+}
+
+.text {
+  font-family: Roboto, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  color: rgb(6, 41, 91);
+  transition: color 0.3s ease 0s;
+}
+
+.card-con {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.btn-free {
+  font-family: "Roboto", Sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 16px;
+  fill: #ffffff;
+  color: #ffffff;
+  background-color: #004cbd;
+  border-radius: 4px 4px 4px 4px;
+  padding: 15px 40px 15px 40px;
+  border: none;
+}
+.btn-free:hover {
+  background-color: #fff;
+  border: 0.1px solid #004cbd;
+  color: #004cbd;
+  transition: all 0.3s;
+}

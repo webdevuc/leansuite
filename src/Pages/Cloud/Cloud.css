@@ -1,0 +1,18 @@
+.cloud-Container {
+  background-color: #090a43;
+  display: flex;
+}
+.cloud-header {
+  color: #ffffff;
+  font-family: "Roboto", Sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 19px;
+}
+.cloud-head {
+  color: #ffffff;
+  font-family: "Roboto", Sans-serif;
+  font-size: 36px;
+  font-weight: 500;
+}

@@ -1,0 +1,66 @@
+.bg-color-leansuite{
+    background-color: #090A43;
+    height: 100%;
+}
+
+
+.iphone{
+    width: 100%;
+}
+
+.title-iphone{
+    color: #FFFFFF;
+    font-family: "Roboto", Sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: none;
+    line-height: 46px;
+    letter-spacing: 0px;
+
+}
+
+.sub-text-iphone{
+    color: #FFFFFF;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 85%;
+}
+
+.iphone-text{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 10px;
+    width: 85%;
+}
+
+.logo-icon-iphone{
+    background-color: #FFC000;
+    border-radius: 40px;
+    padding: 5px; 
+    margin-left: 5px;
+}
+
+.sche-btn{
+    font-weight: 500;
+    line-height: 15px;
+    color: #0052CC;
+    background-color: #FFFFFF;
+    border-style: solid;
+    border-radius: 4px 4px 4px 4px;
+    padding: 15px 32px 15px 32px;
+}
+
+@media screen and (max-width:768px) {
+    .title-iphone{
+        text-align: center;
+    }
+    .sub-text-iphone{
+        width: 100%; 
+        text-align: center;
+    }
+    .sche-div-btn{
+        text-align: center;
+    }
+}

@@ -1,0 +1,122 @@
+
+.top{
+    background-color: #06295B;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.top-text{
+    color: #fff;
+    padding-top: 8px;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-around;
+}
+
+.fixed {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+  }
+
+.logo-icon{
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px; 
+  height: 30px; 
+  margin-left: 15px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    background-color: #fff;
+  }
+  
+  .navbar-brand {
+    flex: 1;
+    font-size: 1.5rem;
+  }
+  
+  .navbar-toggle {
+    display: none;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .toggle-icon {
+    display: block;
+    width: 25px;
+    height: 2px;
+    background-color: #fff;
+    margin: 4px 0;
+  }
+  
+  .navbar-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-links li {
+    margin-left: 1rem;
+    cursor: pointer;
+  }
+  
+  .navbar-links.active {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: #333;
+    width: 100%;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-toggle {
+      display: block;
+    }
+  
+    .navbar-links.active {
+      top: 50px;
+    }
+  }
+
+  .btnHome{
+    background-color: #053280;
+    padding: 3px 20px 3px 20px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    margin-right: 10px;
+    text-transform: uppercase;
+  }
+
+  .btnHome-contact{
+    background-color: #fff;
+    padding: 1px 20px 1px 20px;
+    border-radius: 5px;
+    border: none;
+    color: #053280;
+    text-transform: uppercase;
+    border-style: solid;
+    border-width: 1px;
+  }
+
+  .btnHome-contact:hover{
+    background-color: #053280;
+    color: #fff;
+  }
+  

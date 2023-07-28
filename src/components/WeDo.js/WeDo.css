@@ -1,0 +1,38 @@
+.wedo{
+    color: #0052CC;
+    font-family: "Roboto", Sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 18.75px;
+    letter-spacing: 0px;
+}
+
+.title-wedo{
+    color: #000000;
+    font-family: "Roboto", Sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.sub-text-wedo{
+    color: #000000;
+    font-family: "Roboto", Sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+@media screen and (max-width:768px) {
+    .wedo{
+        text-align: center;
+    }
+    .title-wedo{
+        font-size: 20px;
+        font-weight: 700;
+        text-align: center;
+    }
+    .sub-text-wedo{
+        text-align: justify;
+    }
+}

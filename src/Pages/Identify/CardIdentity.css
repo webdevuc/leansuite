@@ -1,0 +1,26 @@
+.identify-sec {
+  background-color: #06295b;
+  height: 65vh;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
+}
+.secound {
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+.identify-head {
+  color: #ffffff;
+  font-family: "Roboto", Sans-serif;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 54px;
+}
+.identify-para {
+  font-family: "Roboto";
+  color: #ffffff;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px !important;
+}

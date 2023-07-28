@@ -1,0 +1,77 @@
+.arrowIcon{
+    align-items: center;
+    display: flex;
+    width: 45%
+}
+
+.text-muted{
+    color: #fff;
+}
+
+
+
+.our-card-sol{
+    width: 400px;
+    /* margin-right: 35px; 
+    height: 19rem; */
+    background-color: #090A43;
+}
+
+.card-tilte-sol{
+    font-family: "Roboto", Sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 35px;
+    color: #fff;
+}
+
+.card-tilte-content{
+    font-family: "Roboto", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 24px;
+    color: #fff;
+}
+
+.sol{
+    color: #0052CC;
+    font-family: "Roboto", Sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 18.75px;
+    letter-spacing: 0px;
+}
+
+.title-sol{
+    color: #000000;
+    font-family: "Roboto", Sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.sub-text-sol{
+    color: #000000;
+    font-family: "Roboto", Sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+@media screen and (max-width:768px) {
+    .our-card-sol{
+        width:100%;
+    }
+    .sub-text-sol{
+        font-size: 20px;
+        text-align: center;
+    }
+    .sol{
+        text-align: center;
+    }
+    .title-sol{
+        text-align: center;
+    }
+}
