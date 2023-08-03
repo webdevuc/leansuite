@@ -14,32 +14,39 @@ const cardData = [
     imageSrc: t1,
     subtitle: "Mobile App",
     description:
-      "TheLeanSuite's native IOS and Android mobile apps make it easy to apply Lean Methodology.",
+      "Love the smplified system. Easy for users to login, visibility of suggestion status & feedback of points awarded all in real time!!.",
     link: "#",
+    name:"Micah k.",
+    role:'Director'
   },
   {
     title: "Suggestion Platform",
     imageSrc: t2,
     subtitle: "Multi Facility Management",
     description:
-      "Share information seamlessly across the entire company and get deeper insights into the complete company-wide operations.",
+      "This software is making the ability for our employees to share their ideas with ease. We are also able to recognize and reward them for their ideas.",
     link: "#",
+    name:"Karen M.",
+    role:'Whirlpool Manager'
   },
   {
     title: "Suggestion Platform",
     imageSrc: t3,
     subtitle: "Multilingual",
     description:
-      "Expand globally worry-free with TheLeanSuite's multi language support & let the workforce chose the language of choice they are comfortable in.",
+      "This is a seamless platform with a great in-depth reporting and analytics that has been incredibly beneficial to the team to bring new ideas forward. The support team behind software is also top-notch so makes a lot easier to get started.",
     link: "#",
+    name:"Eric R",
+    role:'Product manager'
   },
 ];
 
 const TESTIMONIALS = () => {
   return (
     <>
+    <div className="testo-back">
       <Container>
-        <div className="container my-5">
+        <div className="">
           <p className="testo-title">TESTIMONIALS</p>
           <p className="testo-sub-title">
             Our Customer <span style={{ color: "#0052cc" }}> Says! </span>
@@ -49,7 +56,7 @@ const TESTIMONIALS = () => {
             {cardData.map((card, index) => (
               <Col key={index} md={4}>
                 <div style={{ paddingBottom: "10px" }}>
-                  <Card className="card-product-improv mt-5">
+                  <Card className="card-product-testo mt-5">
                     <Card.Body className="mt-3">
                       <Card.Title className="testo-img">
                         <img
@@ -64,6 +71,11 @@ const TESTIMONIALS = () => {
                       <Card.Text className="description">
                         {card.description}
                       </Card.Text>
+
+                      <Card.Text className="card-text-bottom">
+                        {card.name}<br/>
+                        {card.role}
+                      </Card.Text>
                     </Card.Body>
                   </Card>
                 </div>
@@ -72,6 +84,7 @@ const TESTIMONIALS = () => {
           </Row>
         </div>
       </Container>
+      </div>
     </>
   );
 };

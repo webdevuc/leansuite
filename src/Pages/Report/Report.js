@@ -4,6 +4,9 @@ import { Container } from "react-bootstrap";
 import { BsArrowRightShort } from "react-icons/bs";
 function Report() {
   return (
+    <>
+    <div className="our-report"></div>
+    <div className="back-report">
     <Container>
       <div className="mt-5">
         <h3 className="report-head">CUSTOM REPORTS</h3>
@@ -26,6 +29,8 @@ function Report() {
         </button>
       </div>
     </Container>
+    </div>
+    </>
   );
 }
 

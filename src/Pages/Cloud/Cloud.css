@@ -30,5 +30,7 @@
   .cloud-content,.cloud-head,.cloud-header{
     text-align: center;
   }
-
+  .cloudd {
+    display: block;
+  }
 }

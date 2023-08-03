@@ -32,7 +32,7 @@
     line-height: 30px;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:767px) {
     .wedo{
         text-align: center;
     }
@@ -41,7 +41,17 @@
         font-weight: 700;
         text-align: center;
     }
-    .sub-text-wedo{
+    /* .sub-text-wedo{
         text-align: justify;
-    }
+    } */
+}
+
+@media screen and (min-width:768px) and (max-width:992px){
+.title-wedo{
+    font-size: 46px;
+    line-height: 50px;
+}
+.sub-text-wedo{
+    font-size: 18px;
+}
 }

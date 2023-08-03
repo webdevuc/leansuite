@@ -5,6 +5,7 @@ import unilever from "../../assets/Images/Uni.webp";
 import Whirlpool from "../../assets/Images/Whir.webp";
 import Mount from "../../assets/Images/Moun.webp";
 import Moura from "../../assets/Images/Mou.webp";
+import { Col, Row } from "react-bootstrap";
 
 const customers = [
   { id: 1, image: unilever },
@@ -30,7 +31,6 @@ function Customer() {
   }, []);
 
   if (isMobile) {
-    // Render the slider for responsive view
     const sliderSettings = {
       dots: true,
       infinite: true,
@@ -65,17 +65,29 @@ function Customer() {
   return (
     <>
       <h5 className="customer">Our Customers</h5>
-      <div className="img-container">
-        {customers.map((customer) => (
-          <div key={customer.id} className="img-container">
-            <img
-              src={customer.image}
-              className="img"
-              alt={`Customer ${customer.id}`}
-            />
+
+      <Row>
+        <Col sm={3} lg={3}>
+          <div className="img-container">
+            <img className="img" src={unilever} />
           </div>
-        ))}
-      </div>
+        </Col>
+        <Col sm={3} lg={3}>
+          <div className="img-container">
+            <img className="img" src={Whirlpool} />
+          </div>
+        </Col>
+        <Col sm={3} lg={3}>
+          <div className="img-container">
+            <img className="img" src={Mount} />
+          </div>
+        </Col>
+        <Col sm={3} lg={3}>
+          <div className="img-container">
+            <img className="img" src={Moura} />
+          </div>
+        </Col>
+      </Row>
     </>
   );
 }

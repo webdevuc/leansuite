@@ -17,6 +17,7 @@ import { Container } from "react-bootstrap";
 import Cloud from "./Pages/Cloud/Cloud";
 import TESTIMONIALS from "./Pages/Testominal/TESTIMONIALS";
 import ContinImprove from "./Pages/ContinImprove/ContinImprove";
+import FeaturesDropdown from "./Pages/FeaturesDropdown/FeaturesDropdown";
 
 const Continous_Improment = () => {
   return (
@@ -35,6 +36,7 @@ const Continous_Improment = () => {
       <Charts />
       <Cloud/>
       <TESTIMONIALS/>
+      <FeaturesDropdown/>
       <ContinImprove/>
       <Footer />
     </>

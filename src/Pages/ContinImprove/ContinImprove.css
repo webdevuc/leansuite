@@ -12,10 +12,14 @@
     text-align: center;
 }
 
-.partners-imgs{
+/* .img-partners{
+    width: 100%;
+} */
+
+/* .partners-imgs{
     display: flex;
     justify-content: center;
-}
+} */
 
 .contin_Get_started{
     font-size: 12px;
@@ -32,11 +36,20 @@
     .title-cont-imporve{
         font-size: 30px;
     }
-    .partners-imgs{
+    .img-partners{
+        width: 100%;
+    }
+    /* .partners-imgs{
         display: block;
         justify-content: center;
     }
     .contin_img{
         text-align: center;
+    } */
+}
+
+@media screen and (max-width:525px) {
+    .img-partners{
+        width: 50%;
     }
 }

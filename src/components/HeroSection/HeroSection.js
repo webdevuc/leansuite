@@ -36,7 +36,7 @@ const HeroSection = () => {
               </div>
             </div>
           </Col>
-          <Col md={6}>
+          <Col md={6} className="d-flex align-items-center">
             <div className="d-flex justify-content-center align-items-center pt-3">
               <img src={img} alt="Lean Manufacturing" className="img-fluid" />
             </div>

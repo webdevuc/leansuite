@@ -9,6 +9,7 @@ import { Col, Row } from "react-bootstrap";
 const ContinImprove = () => {
   return (
     <div className="container my-5">
+      <Row>
       <h1 className="title-cont-imporve">
         Continuously improve and increase your bottom line
       </h1>
@@ -21,17 +22,18 @@ const ContinImprove = () => {
       <div className="text-center pt-5">
         <button className="contin_Get_started">GET STARTED</button>
       </div>
+      </Row>
 
-      <Row className="row mt-5 partners-imgs">
-        <Col className="contin_img">
-          <img src={p2} alt="Tableau" />
+      <Row className="row text-center">
+        <Col lg={4} sm={4} className="contin_img">
+          <img className="img-partners" src={p2} alt="Tableau" />
         </Col>
-        <Col className="contin_img">
-          <img src={p3} alt="Oracle" />
+        <Col lg={4} sm={4} className="contin_img">
+          <img className="img-partners" src={p3} alt="Oracle" />
         </Col>
 
-        <Col className="contin_img">
-          <img src={p4} alt="Google Cloud" />
+        <Col lg={4} sm={4} className="contin_img">
+          <img className="img-partners" src={p4} alt="Google Cloud" />
         </Col>
       </Row>
     </div>

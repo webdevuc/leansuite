@@ -2,10 +2,10 @@
   margin-top: 10rem;
 }
 
-.heading-driving {
+.heading-driving-text{
   color: #06295b;
   font-family: "Roboto", Sans-serif;
-  font-size: 45px;
+  font-size: 50px;
   font-weight: 600;
   line-height: 66px;
 }
@@ -62,7 +62,7 @@
   .dri-img{
     width: 100%;
   }
-  .heading-driving{
+  .heading-driving-text{
     font-size: 28px;
     line-height: 38px;
     text-align: center;
@@ -73,4 +73,9 @@
   .driv-btn-center{
     text-align: center;
   }
+}
+
+.dri-img-div{
+  display: flex;
+  justify-content: center;
 }

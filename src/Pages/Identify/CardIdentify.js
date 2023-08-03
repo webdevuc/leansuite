@@ -8,7 +8,7 @@ function CardIdentify() {
 
   useEffect(() => {
     const handleResize = () => {
-      setIsMobile(window.innerWidth < 768); // Adjust the breakpoint as needed
+      setIsMobile(window.innerWidth < 769); // Adjust the breakpoint as needed
     };
 
     handleResize(); // Call it initially to set the correct screen size on mount
@@ -24,8 +24,8 @@ function CardIdentify() {
       <Container>
         {isMobile ? (
           // On mobile screens, display the image section second
-          <Row className="d-flex secound ">
-            <Col md={5}>
+          <Row className=" secound ">
+            <Col  sm={12}>
               <h1 className="identify-head">
                 Measure your impact and share best practices
               </h1>
@@ -44,21 +44,21 @@ function CardIdentify() {
                 Improvement System.
               </p>
             </Col>
-            <Col md={5} className="mb-5">
-              <div>
+            <Col  sm={12} className="pb-5">
+              <div className="text-center">
                 <img className="id_img" src={identify} alt="Identification" />
               </div>
             </Col>
           </Row>
         ) : (
           // On larger screens, display the image section first (as in the original code)
-          <Row className="d-flex secound py-5">
-            <Col md={5}>
+          <Row className="secound py-5">
+            <Col>
               <div>
                 <img className="id_img" src={identify} alt="Identification" />
               </div>
             </Col>
-            <Col md={5}>
+            <Col >
               <h1 className="identify-head">
                 Measure your impact and share best practices
               </h1>

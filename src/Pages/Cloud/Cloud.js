@@ -29,8 +29,8 @@ const Cloud = () => {
 
       <div className="cloud-Container">
         <Container>
-          <Row>
-            <Col md={6}>
+          <Row className="cloudd">
+            <Col >
               <h2 className="cloud-header">CLOUD APP </h2>
               <h1 className="cloud-head pt-3">
                 Purpose built for an on-the-go workforce{" "}
@@ -47,7 +47,7 @@ const Cloud = () => {
                 your mobile device, tablet, laptop, or desktop
               </p>
             </Col>
-            <Col md={6}>
+            <Col >
               <img src={img} alt="Lean Manufacturing" className="img-fluid" />
             </Col>
           </Row>

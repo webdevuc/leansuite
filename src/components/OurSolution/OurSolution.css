@@ -8,6 +8,12 @@
     color: #fff;
 }
 
+.our-sol-sec{
+    background: linear-gradient(192deg, rgba(0, 82, 204, 0.1) 1.96%, rgba(255, 255, 255, 0) 40.47%);
+    clip-path: polygon(0 0, 100% 44%, 100% 100%, 0% 100%);
+    /* background-color: #e7eefa; */
+}
+
 .our-solution{
     background-color:  #e7eefa;
     height: 50vh;
@@ -15,6 +21,15 @@
     align-items: center;
     justify-content: center;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 83%);
+    background: linear-gradient(169deg, rgba(0, 82, 204, 0.1) 1.96%, rgba(255, 255, 255, 0) 40.47%);
+}
+
+
+
+.our-solution-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .our-card-sol{
@@ -43,7 +58,7 @@
 }
 
 .sol{
-    color: #0052CC;
+    color: #003380;
     font-family: "Roboto", Sans-serif;
     font-size: 16px;
     font-weight: 700;
@@ -60,9 +75,9 @@
 }
 
 .sub-text-sol{
-    color: #000000;
+    color: #676767;
     font-family: "Roboto", Sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 30px;
 }
@@ -72,13 +87,11 @@
         width:100%;
     }
     .sub-text-sol{
-        font-size: 20px;
-        text-align: center;
+        font-size: 25px;
+        /* text-align: center; */
     }
-    .sol{
-        text-align: center;
-    }
-    .title-sol{
-        text-align: center;
+    
+    .first-col{
+        text-align: left;
     }
 }

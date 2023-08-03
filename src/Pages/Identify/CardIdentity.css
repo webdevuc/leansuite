@@ -7,6 +7,7 @@
   gap: 2rem;
   justify-content: center;
   align-items: center;
+  display: flex;
 }
 .identify-head {
   color: #ffffff;
@@ -26,9 +27,9 @@
 
 
 @media screen and (max-width:768px) {
-  .id_img{
+  /* .id_img{
     width: 100%;
-  }
+  } */
   .identify-head{
     padding-top: 25px;
     font-size: 25px;
@@ -36,5 +37,15 @@
   }
   .identify-para{
     text-align: center;
+  }
+  .secound {
+    display: block;
+    flex-direction: row-reverse;
+  }
+}
+
+@media screen and (max-width:525px) {
+    .id_img{
+    width: 100%;
   }
 }

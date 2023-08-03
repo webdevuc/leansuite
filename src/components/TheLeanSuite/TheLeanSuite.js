@@ -11,11 +11,12 @@ const TheLeanSuite = () => {
   return (
     <>
       <section></section>
-      <div className="bg-color-leansuite mt-5">
+      <div className="the-leansuite"></div>
+      <div className="bg-color-leansuite">
         <div className="d-flex justify-content-center align-items-center">
           <Container>
             <Row className="d-flex justify-content-center align-items-center">
-              <Col md={6}>
+              <Col sm={12} lg={6}>
                 <div className="main-div">
                   <p className="title-iphone pt-5">TheLeanSuite</p>
                   <h3 className="sub-text-iphone pt-3">
@@ -62,7 +63,7 @@ const TheLeanSuite = () => {
                   </div>
                 </div>
               </Col>
-              <Col md={6}>
+              <Col sm={12} lg={6}>
                 <img className="iphone" src={iphone} alt="" />
               </Col>
             </Row>

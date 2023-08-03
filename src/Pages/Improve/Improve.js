@@ -11,6 +11,10 @@ import { MdCampaign, MdOutlineAttachFile } from "react-icons/md";
 import {HiDocumentText} from "react-icons/hi"
 import { BsCircleHalf, BsPersonGear } from "react-icons/bs";
 
+import s1 from "../../assets/svg/Save-time-and-Money.svg"
+import s2 from "../../assets/svg/Increase-Productivity.svg"
+import s3 from "../../assets/svg/Capture-data-in-real-time.png"
+
 const cardData = [
   {
     icons: [
@@ -18,10 +22,10 @@ const cardData = [
     
       ],
     title: "Suggestion Platform",
-    imageSrc: "https://theleansuite.com/wp-content/uploads/2022/10/img2.svg",
-    subtitle: "Mobile App",
+    imageSrc: s1,
+    subtitle: "Save time and money",
     description:
-      "TheLeanSuite's native IOS and Android mobile apps make it easy to apply Lean Methodology.",
+      "Control and manage your continuous improvement efforts under one central hub from anywhere, at any time",
     link: "#",
   },
   {
@@ -29,21 +33,21 @@ const cardData = [
         <PiMapPinLineFill color="#fff" size={30} />,
       ],    
     title: "Suggestion Platform",
-    imageSrc: "https://theleansuite.com/wp-content/uploads/2022/10/img2.svg",
-    subtitle: "Multi Facility Management",
+    imageSrc: s2,
+    subtitle: "Increase productivity",
     description:
-      "Share information seamlessly across the entire company and get deeper insights into the complete company-wide operations.",
+      "Empower and involve your frontline employees to create projects to continuously improve all aspects of your operations",
     link: "#",
   },
   {
     icons: [
         <TbWorld color="#fff" size={30} />,
       ], 
-    title: "Suggestion Platform",
-    imageSrc: "https://theleansuite.com/wp-content/uploads/2022/10/img2.svg",
-    subtitle: "Multilingual",
+    title: "Capture data in real time",
+    imageSrc: s3,
+    subtitle: "Capture data in real time",
     description:
-      "Expand globally worry-free with TheLeanSuite's multi language support & let the workforce chose the language of choice they are comfortable in.",
+      "Prioritize projects, capture key operational data, and analyze reports in real-time to improve your operational processes",
     link: "#",
   },
 ];
@@ -51,10 +55,12 @@ const cardData = [
 const Improve = () => {
   return (
     <>
+    <div className="our-improve"></div>
+    <div className="testo-back py-5">
       <Container>
         <div className="container">
           {/* <p className="choose-us">why choose us</p> */}
-          <p className="pro-fea-imp">Improve your overall bottom line</p>
+          <p className="pro-fea-imp py-5">Improve your overall bottom line</p>
 
           <Row>
             {cardData.map((card, index) => (
@@ -62,18 +68,8 @@ const Improve = () => {
                 <div style={{paddingBottom:'10px'}}>
                 <Card className="card-product-improv">
                   <Card.Body className="mt-3">
-                    <Card.Title>
-                    <div className="logo-icon-img">
-                        {card.icons.map((icon, i) => (
-                          <div
-                            key={i}
-                            className="icon-container"
-                          >
-                            {icon}
-                          </div>
-                        ))}
-                      </div>
-                    </Card.Title>
+                    
+                    <img src={card.imageSrc} alt={card.title} className="card-image" />
                     <Card.Subtitle className="my-4 text-muted">
                       {card.subtitle}
                     </Card.Subtitle>
@@ -86,6 +82,7 @@ const Improve = () => {
           </Row>
         </div>
       </Container>
+      </div>  
     </>
   );
 };

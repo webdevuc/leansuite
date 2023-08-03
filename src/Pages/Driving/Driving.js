@@ -27,11 +27,11 @@ function Driving() {
   return (
     <div className="main-container my-5">
       <Row className="d-flex justify-content-center align-items-center">
-        <Col md={5}>
+        <Col md={6} className="text-center text-md-right">
           <img className="dri-img" src={driving} alt="Driving continuous improvement" />
         </Col>
-        <Col md={5}>
-          <h1 className="heading-driving">
+        <Col md={6}>
+          <h1 className="heading-driving-text">
             Driving continuous improvement can be painful
           </h1>
           <div>

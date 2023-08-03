@@ -9,11 +9,17 @@
   text-align: center;
 }
 
+.our-improve{
+  height: 35vh;
+  clip-path: polygon(0% 8%, 100% 100%, 0% 100%, 0 83%);
+  background-color:#E7EFFA ;
+}
+
 .pro-fea-imp{
   color: #000;
   font-family: "Roboto", Sans-serif;
-  font-size: 40px;
-  font-weight: 600;
+  font-size: 36px;
+  font-weight: 500;
   line-height: 60px;
   text-align: center;
 }
@@ -42,15 +48,20 @@
 .description{
   color: #656565;
   font-family: "Roboto", Sans-serif;
-  font-size: 16px;
+  font-size: 15px;
 }
 
 .card-product-improv{
-  width: 400px ;
+  /* width: 350px ; */
   height: 19rem;
   text-align: center;
-  border-radius: 20;
+    background-color: #FFFFFF;
+    border-style: solid;
+    border-color: #0052CC00;
+    border-radius: 0px 0px 0px 0px;
+    box-shadow: 0px 4px 4px 5px rgba(0, 82.00000000000007, 204, 0.1);
 }
+
 
 @media screen and (max-width:768px) {
   .card-product-improv{
@@ -60,5 +71,9 @@
     font-size: 24px;
     
    } 
+}
+
+@media screen and (min-width:767px) and (max-width:992px) {
+
 }
 
