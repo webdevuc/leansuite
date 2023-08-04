@@ -58,9 +58,9 @@ const OurSolution = () => {
 
   return (
     <div className="our-sol-sec">
-      <section className="">
-        <div className="our-solution"></div>
-        <div className="mt-5">
+      <div className="our-solution"></div>
+
+        <div className="">
           <div className="d-flex justify-content-center align-items-center">
             <Container>
               <Row className="our-solution-row">
@@ -192,7 +192,6 @@ const OurSolution = () => {
           </div>
         </div>
         <div className="our-solution-bottom"></div>
-      </section>
     </div>
   );
 };

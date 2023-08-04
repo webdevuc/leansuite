@@ -16,10 +16,7 @@
 
 .our-solution{
     background-color:  #e7eefa;
-    height: 50vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    height: 40vh;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 83%);
     background: linear-gradient(169deg, rgba(0, 82, 204, 0.1) 1.96%, rgba(255, 255, 255, 0) 40.47%);
 }
@@ -94,4 +91,9 @@
     .first-col{
         text-align: left;
     }
+    /* .our-solution{
+        height: 20vh;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 53%);
+        background: linear-gradient(5deg, rgba(0, 82, 204, 0.1) 1.96%, rgba(255, 255, 255, 0) 40.47%);
+    } */
 }

@@ -27,6 +27,7 @@ const Cloud = () => {
       </div>
     </div> */}
 
+<div className="our-cloud"></div>
       <div className="cloud-Container">
         <Container>
           <Row className="cloudd">
@@ -53,6 +54,7 @@ const Cloud = () => {
           </Row>
         </Container>
       </div>
+      {/* <div className="our-cloud-bottom"></div> */}
     </>
   );
 };

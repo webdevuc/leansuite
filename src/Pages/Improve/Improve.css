@@ -9,8 +9,14 @@
   text-align: center;
 }
 
+
+.testo-back-improve{
+  background: #E8EFFA; 
+  background: linear-gradient(179deg, rgba(0, 82, 204, 0.1) 1.96%, rgba(255, 255, 255, 0) 40.47%);
+}
+
 .our-improve{
-  height: 35vh;
+  height: 22vh;
   clip-path: polygon(0% 8%, 100% 100%, 0% 100%, 0 83%);
   background-color:#E7EFFA ;
 }

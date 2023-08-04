@@ -21,11 +21,22 @@
 
 .the-leansuite{
     background-color:  #090A43;
-    height: 41vh;
+    height: 30vh;
     display: flex;
     align-items: center;
     justify-content: center;
     clip-path: polygon(0% 8%, 100% 100%, 0% 100%, 0 83%);
+}
+
+@media screen and (max-width:768px) {
+.the-leansuite{
+    background-color: #090A43;
+    height: 18vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    clip-path: polygon(0% 51%, 100% 100%, 0% 100%, 0 83%);
+}
 }
 
 .sub-text-iphone{

@@ -1,6 +1,7 @@
 
 .testo-back{
-    background-image: linear-gradient(180deg, #0052CC1A 0%, #FFFFFF 100%);
+    /* background-image: linear-gradient(180deg, #0052CC1A 0%, #FFFFFF 100%); */
+
 }
 
 .card-product-testo{
@@ -29,6 +30,19 @@
     left: 15px; 
     right: 15px; 
   }
+
+
+  .our-testo{
+    /* height: 30vh;
+    clip-path: polygon(0 0, 100% 0, 100% 100%);
+    background-color: #090a43; */
+    /* clip-path: polygon(0% 8%, 100% 100%, 0% 100%, 0 83%); */
+    clip-path: polygon(0 0, 100% 0, 100% 100%);
+    background: #090a43;
+    height: 30vh;
+  }
+  
+
 
 .testo-img{
     display: flex;

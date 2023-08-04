@@ -51,7 +51,7 @@
     /* width: 400px ; */
     height: 19rem;
     text-align: center;
-    border-radius: 20;
+    border-radius: 25px;
 }
   
 @media screen and (max-width:768px) {

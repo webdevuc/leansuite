@@ -64,6 +64,7 @@ function Customer() {
   // Render the images directly for non-responsive (desktop) view
   return (
     <>
+        
       <h5 className="customer">Our Customers</h5>
 
       <Row>

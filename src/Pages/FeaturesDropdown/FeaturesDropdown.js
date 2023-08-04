@@ -71,7 +71,8 @@ const FeaturesDropdown = () => {
 
   return (
     <>
-      <div className="featDrop_div py-5">
+    <div className="our-leansuiteFeatures"></div>
+      <div className="featDrop_div">
         <div className="container">
           <h2 className="title">TheLeanSuite Features</h2>
           <div className="row">
